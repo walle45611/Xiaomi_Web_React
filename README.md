@@ -6,6 +6,3 @@
 * 安裝react-bootstrap
     ```npm install react-bootstrap bootstrap```
 * 可以打開build -> index.html 完成的網頁
-  
-  
-# Xiaomi_Web_React
