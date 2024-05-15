@@ -1,0 +1,60 @@
+.home-main {
+  background-color: #f5f5f5;
+}
+.home-main .home-title {
+  line-height: 58px;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 200;
+  color: #212121;
+}
+.xm-plain-box .box-hd .title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 200;
+  color: #212121;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.all-product {
+  position: relative;
+  display: flex;
+}
+.product .card {
+  position: relative;
+  margin-left: 14px;
+  margin-bottom: 14px;
+  border-radius: 0px;
+  text-align: center;
+  padding: 34px 0 20px;
+}
+.all-product .card {
+  margin-bottom: 14px;
+  position: relative;
+  z-index: 1;
+}
+.product .card .flag .flags-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  width: 117px;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f23835;
+}
+.product .card .flag {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}

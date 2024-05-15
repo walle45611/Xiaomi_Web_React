@@ -1,0 +1,391 @@
+.site-header {
+  background-color: #fff;
+  position: relative;
+  height: 100px;
+}
+.curtain {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  transition: all 0.4s ease;
+  background-color: #fff;
+}
+.doodle .link-block {
+  display: block;
+  width: 168px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-indent: -999em;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.ad-gif {
+  height: 100px;
+}
+.shop-categories {
+  height: 100px;
+}
+.milogo {
+  position: relative;
+  float: left;
+  height: 100%;
+  z-index: 101;
+}
+.milogo .milogo-wrapper {
+  line-height: 100px;
+  height: 100px;
+  width: 56px;
+  overflow: hidden;
+  background: url(https://i01.appmifile.com/webfile/globalimg/pandora/mi-logo-bg.svg)
+    no-repeat left center;
+  background-size: 56px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.milogo img {
+  vertical-align: middle;
+  margin-left: -56px;
+  transition: all 0.2s;
+}
+.milogo-wrapper .milogo-main:hover {
+  margin-left: 0px;
+}
+.main-category a {
+  transition: color 0.4s ease;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: color;
+  font-size: 16px;
+  height: 16px;
+  color: #424242;
+  margin: 0 15px;
+  cursor: default;
+}
+.shop-categories .search-section {
+  float: right;
+  margin-top: 25px;
+}
+
+/* Search */
+.search-form {
+  position: relative;
+  width: 296px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+}
+.search-form :hover ~ .search-btn {
+  background: #ff4a00;
+  border: #ff4a00;
+  color: #fff;
+}
+.search-form .search-text {
+  width: 223px;
+  height: 100%;
+  padding: 0 15px;
+  border: 0;
+  line-height: 20px;
+  color: #424242;
+  background: #fff;
+}
+.search-form .search-text:focus {
+  outline: 0;
+}
+.search-form .search-text:focus + .hot-words {
+  display: none;
+}
+.search-form .hot-words {
+  position: absolute;
+  top: 14px;
+  right: 62px;
+  font-size: 12px;
+  z-index: 2;
+  text-align: right;
+}
+.search-form .hot-words a {
+  display: inline-block;
+  padding: 1px 3px;
+  margin-left: 5px;
+  color: #424242;
+  background: #eee;
+}
+.search-form .search-btn {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 52px;
+  height: 104%;
+  font-size: 24px;
+  line-height: 24px;
+  border: 1px solid #e0e0e0;
+  color: #616161;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/*  */
+.shop-categories {
+  height: 100px;
+}
+.shop-categories .categories-wrapper {
+  height: 100%;
+  float: left;
+  margin-left: 44px;
+}
+.shop-categories .nav-category,
+.shop-categories dl {
+  float: left;
+  display: table;
+  height: 100%;
+}
+.shop-categories .main-category a {
+  transition: color 0.4s ease;
+  font-size: 16px;
+  color: #424242;
+  margin: 0 15px;
+  cursor: default;
+}
+.shop-categories .main-category a:hover {
+  color: #ff4a00;
+}
+.shop-categories .main-category {
+  font-weight: 600;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.shop-categories .products-exhibit {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 230px;
+  border-top: 1px solid #eee;
+  display: none;
+  z-index: 999;
+}
+.site-header .products-exhibit-wrapper {
+  padding: 0;
+  box-sizing: border-box;
+}
+.site-header .main-product {
+  float: left;
+  text-align: center;
+  width: 204px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-product .product-price {
+  display: block;
+  color: #ff6700;
+  font-size: 14px;
+}
+.site-header .main-product .product-name {
+  color: #424242;
+  font-size: 16px;
+}
+.site-header .main-product .product-price {
+  display: block;
+  color: #ff6700;
+  font-size: 14px;
+}
+
+/*  */
+.shop-categories .nav-category {
+  position: relative;
+  font-weight: 600;
+  height: 100%;
+}
+.shop-categories .nav-category .btn-category-list {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 15px;
+  transition: color 0.4s ease;
+  font-size: 16px;
+  color: #424242;
+}
+.shop-categories .nav-category .btn-category-list {
+  visibility: hidden;
+}
+.shop-categories .nav-category-section {
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: -100px;
+  z-index: 121;
+  width: 234px;
+  font-size: 14px;
+}
+.shop-categories .nav-category {
+  position: relative;
+  font-weight: 600;
+  height: 100%;
+}
+.shop-categories .nav-category-section .nav-category-list {
+  height: 100%;
+  border: 0;
+  color: #fff;
+  background: #333;
+  background: rgba(0, 0, 0, 0.6);
+}
+.shop-categories .nav-category-list {
+  height: 418px;
+  margin: 0;
+  padding: 20px 0;
+  list-style-type: none;
+  border: 1px solid #ff6700;
+  color: #424242;
+  background: #fff;
+}
+.shop-categories .nav-category-list .nav-category-item .title {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  height: 42px;
+  line-height: 42px;
+  color: #424242;
+}
+.shop-categories .nav-category-list .nav-category-item.current .title {
+    background: #ff6700;
+    color: #fff;
+}
+.shop-categories .nav-category-list .nav-category-item .title svg {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #e0e0e0;
+}
+.shop-categories .nav-category-section .nav-category-list .title {
+  color: #fff;
+}
+.shop-categories .nav-category-section {
+  display: block;
+}
+.site-header .header-nav-menu {
+  position: absolute;
+  top: 87px;
+  left: 0;
+  z-index: 24;
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  background: #fff;
+  overflow: hidden;
+  z-index: 222;
+}
+.site-header .header-nav-menu-active {
+  box-shadow: 0 3px 4px rgb(0 0 0 / 18%);
+}
+/*  */
+.site-header .fixed-nav.fixed-active {
+  position: fixed;
+  top: 0;
+  display: block;
+  max-height: 40px;
+}
+.site-header .fixed-nav {
+  display: none;
+  width: 100%;
+  max-height: 0px;
+  background: #212121;
+  z-index: 999;
+  transition: max-height 0.5s ease-out;
+}
+.site-header .fixed-nav .milogo {
+  float: left;
+}
+.site-header .fixed-nav .milogo img {
+  height: 24px;
+  margin-left: -24px;
+}
+.site-header .fixed-nav .milogo .milogo-wrapper {
+  background-size: 24px;
+  line-height: 28px;
+  height: 28px;
+  margin-top: 6px;
+}
+
+
+.shop-categories .nav-category-list {
+  height: 418px;
+  margin: 0;
+  padding: 20px 0;
+  list-style-type: none;
+  border: 1px solid #ff6700;
+  color: #424242;
+  background: #fff;
+}
+.shop-categories .nav-category-list .children-list .text {
+  line-height: 40px;
+}
+.shop-categories .nav-category-list .children-list .link {
+  display: block;
+  padding: 18px 20px;
+  line-height: 40px;
+  color: #333;
+  transition: color .2s;
+}
+.shop-categories .nav-category-list .children-list .link:hover {
+  color: #ff6700;
+}
+.shop-categories .nav-category-list .children-list .thumb {
+  margin-right: 12px;
+  vertical-align: middle;
+}
+.shop-categories .nav-category-list .children-list.children-list-col {
+  float: left;
+  width: 265px;
+}
+
+.shop-categories .nav-category-list .children-col-1 {
+  width: 265px;
+}
+.shop-categories .nav-category-list .children-col-2 {
+  width: 530px;
+}
+.shop-categories .nav-category-list .children-col-3 {
+  width: 795px;
+}
+.shop-categories .nav-category-list .children {
+  display: none;
+  position: absolute;
+  left: 234px;
+  top: 0;
+  z-index: 24;
+  height: 458px;
+  border: 1px solid #e0e0e0;
+  border-left: 0;
+  background: #fff;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 18%);
+}
+.shop-categories .nav-category-list .children-list li {
+  position: relative;
+  float: left;
+  width: 265px;
+  height: 76px;
+}
+.shop-categories .nav-category-list .nav-category-item.current .children {
+  display: flex;
+}
+/*  */
+.doodle .link-block {
+  position: absolute;
+  left: 66px;
+  bottom: 0;
+  z-index: 21;
+  width: 168px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-indent: -999em;
+}

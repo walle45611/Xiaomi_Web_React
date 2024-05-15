@@ -1,0 +1,78 @@
+.home-hero-container {
+  background: #fff;
+}
+.home-hero {
+  position: relative;
+  margin-bottom: 26px;
+}
+.home-hero-slider {
+  position: relative;
+  height: 460px;
+}
+.home-hero-slider .slide {
+  width: 1226px;
+  height: 460px;
+}
+.home-hero-sub {
+  margin-top: 14px;
+  width: 1226px;
+  overflow: hidden;
+}
+.home-hero-sub img {
+  width: 296px;
+  height: 170px;
+}
+.home-hero-sub .home-promo-list {
+  width: 1240px;
+}
+.home-hero-sub li {
+  float: left;
+  width: 296px;
+  height: 170px;
+  margin-right: 14px;
+  transition: box-shadow 0.2s linear;
+}
+.home-hero-sub li:hover {
+  box-shadow: 0 3px 4px rgb(0 0 0 / 18%);
+}
+.home-invite {
+  display: block;
+  width: 1226px;
+  height: 120px;
+  margin: 16px auto 0;
+  transition: box-shadow 0.2s linear;
+}
+.home-invite:hover{
+  box-shadow: 0 3px 4px rgb(0 0 0 / 18%);
+}
+.home-invite-img {
+  width: 1226px;
+  height: 120px;
+}
+.carousel-indicators {
+  justify-content: end;
+  margin: 0px;
+  padding: 10px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border: 1px solid transparent !important;
+  border-radius: 10px;
+  z-index: 3;
+}
+.carousel-control-prev {
+  left: 234px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 41px;
+  height: 69px;
+  top: 230px;
+}
+.carousel-control-prev:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+.carousel-control-next:hover {
+  background: rgba(0, 0, 0, 0.6);
+}

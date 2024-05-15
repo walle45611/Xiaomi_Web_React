@@ -1,0 +1,145 @@
+.site-footer {
+  color: #424242;
+  background: #fafafa;
+}
+.footer-content {
+  background-color: #212121;
+}
+.site-footer .col-links dt {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #b0b0b0;
+}
+.site-footer .col-links dd a {
+  white-space: nowrap;
+  color: #b0b0b0;
+  font-size: 14px;
+}
+.site-footer .col-links dd a:hover {
+  color: #fff;
+}
+.site-footer .footer-links {
+  padding: 40px 0px;
+  border-bottom: 1px solid #4b4b4b;
+  color: #b0b0b0;
+}
+.site-footer .col-links dd {
+  margin: 0 0 10px;
+}
+.site-footer .col-contact p.phone {
+  font-family: "Avenir Next Condensed", Arial, sans-serif;
+  margin-bottom: 5px;
+  font-size: 30px;
+  line-height: 1;
+  color: #fff;
+  font-weight: 600;
+}
+.site-footer .col-contact p.serv-time {
+  white-space: nowrap;
+  font-size: 12px;
+}
+.site-footer .col-links {
+  width: 155px;
+  margin: 0 0 0 30px;
+}
+.site-footer .col-links dd li {
+  width: 100px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.site-footer .info-text p {
+  margin: 0;
+  line-height: 20px;
+}
+.site-footer .info-text {
+  width: 710px;
+  margin-bottom: 20px;
+  color: #b0b0b0;
+}
+.site-footer .info-text a:hover {
+  color: #fff;
+}
+.site-footer .footer-info {
+  padding: 35px 0px;
+  font-size: 12px;
+}
+.site-footer .info-text a {
+  color: #b0b0b0;
+}
+.site-footer .footer-service {
+  margin-top: 80px;
+  background: #fff;
+  padding: 20px 0;
+}
+.site-footer .list-service a {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #424242;
+}
+.site-footer .list-service a .info-desc {
+  display: inline-block;
+  text-align: left;
+}
+.site-footer .list-service .footer-Item {
+  float: left;
+  width: 25%;
+  height: 40px;
+  text-align: center;
+}
+.social-media {
+  text-align: center;
+  border-left: 1px solid #b0b0b0;
+}
+
+.site-footer .list-service .footer-Item a .icon-footer {
+  display: inline-block;
+  height: 37px;
+  width: 40px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin-right: 23px;
+  background-image: url(	https://i01.appmifile.com/webfile/globalimg/zh/2014/icon/footer-service-1.png?14111701);
+}
+.site-footer .list-service .footer-Item a .icon-footer-gift {
+  position: relative;
+  background-position: -5px -5px;
+  top: 3px;
+}
+.site-footer .list-service .footer-Item a .icon-footer-express {
+    background-position: -5px -52px;
+    height: 26px;
+    width: 52px;
+}
+.site-footer .list-service .footer-Item a .icon-footer-qiye {
+    background-position: -105px -41px;
+    height: 29px;
+    width: 36px;
+}
+.site-footer .list-service .footer-Item a .icon-footer-gift:hover{
+    position: relative;
+    background-position: -55px -5px;
+    top: 3px;
+}
+.site-footer .list-service .footer-Item a .icon-footer-express:hover {
+    background-position: -105px -5px;
+    height: 26px;
+    width: 52px;
+}
+.site-footer .list-service .footer-Item a .icon-footer-qiye:hover {
+    background-position: -67px -80px;
+    height: 29px;
+    width: 36px;
+}
+.site-footer .list-service .social-media a {
+    display: inline-block;
+    margin-left: 20px;
+    color: #b0b0b0;
+    font-size: 16px;
+}
+.site-footer .list-service .social-media{
+    font-size: 12px;
+}
+.site-footer .list-service .social-media a :hover{
+    color: #212121;
+}

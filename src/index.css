@@ -1,0 +1,68 @@
+.container {
+  width: 1226px;
+  --bs-gutter-x: 0rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  border: 0;
+}
+a {
+  color: #757575;
+  text-decoration: none;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+body {
+  min-width: 1226px;
+  font-family: ProximaNova,Arial,Sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #757575;
+  background-color: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+dd,
+dl,
+dt,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card{
+  --bs-card-spacer-y :0px;
+  --bs-card-border-color: 0px;
+  transition: all .2s linear;
+}
+.card:hover{
+  box-shadow: 0 15px 30px rgba(0 ,0 ,0 ,10%)
+}
+.card .title {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+.card a:hover {
+  color: #212121;
+}
+.card .price {
+    margin: 0;
+    color: #ff6709;
+}
+.title a:hover{
+  color: #212121;
+}
